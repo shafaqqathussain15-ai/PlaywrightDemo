@@ -1,0 +1,13 @@
+{
+    "username":"mukesh@email.com",
+    "password":"adin@123",
+    "interest":["Cypress" , "Java",  "API"] ,
+    "gender":"Male" ,
+    "address":{
+
+        "area":"hsr"
+
+    }
+
+}
+
