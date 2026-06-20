@@ -1,6 +1,6 @@
 // const{test , expect} = require("@playwright/test")
 
-// test("Handle Iframe" , async(page)=>{
+// test("Handle Iframe" , async({page})=>{
 
 //     await page.goto("https://docs.oracle.com/javase/8/docs/api/")
     
