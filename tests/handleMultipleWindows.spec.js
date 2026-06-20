@@ -25,6 +25,6 @@ test("Working with multiple tab",async({browser})=>{
 
     await page.locator("#email1").fill("admin@email.com")
 
-
+// await page.bringToFront()   --- this is used for switch to tabs
 
 })
