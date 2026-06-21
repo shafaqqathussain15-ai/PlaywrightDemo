@@ -3,7 +3,7 @@ const { test, expect0, expect } = require("@playwright/test")
 const testData = JSON.parse(JSON.stringify(require("../testData.json")))
 
 const testDataDriven = JSON.parse(JSON.stringify(require("../testDataDriven.json")))
-    test.setTimeout(0)
+    test.setTimeout(0);
 test.describe("DataDrivin Login Test", () => {
 
     for (const data of testDataDriven) {
